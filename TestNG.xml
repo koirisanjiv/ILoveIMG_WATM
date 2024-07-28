@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel="none" thread-count="1">
+
+	<listeners>
+		<listener class-name="com.iloveimg.utilities.ExtentReport"></listener>
+	</listeners>
+
+	<parameter name="browser" value="chrome"></parameter><!-- value is only
+	[chrome, firefor, edge]-->
+	<parameter name="loginUserType" value="user"></parameter><!-- value is only
+	[user]-->
+	<parameter name="wantToByPassLoginLogout" value="true"></parameter> <!--
+	value is [true, false]-->
+	<parameter name="enableDebuggerMode" value="true, 9222"></parameter> <!--
+	value is [true,flalse, integer]-->
+	<parameter name="incognitoMode" value="false"></parameter> <!--
+	value is [true, false]-->
+	<parameter name="wantToBlockAdsAndNotifications" value="true"></parameter> <!--
+	value is [true, false]-->
+	<parameter name="headerLessBrowsing" value="false"></parameter> <!--
+	value is [true, false]-->
+
+	<test name="ILoveIMG">
+		<classes>
+
+			<!-- =======ILoveIMG WEBSITE TESTING========= -->
+
+			<!--	<class name="com.iloveimg.testCases.TC_Home" />-->
+
+			<class name="com.iloveimg.testCases.TC_ConvertToJPG" />
+
+		</classes>
+
+	</test> <!--
+	Test -->
+
+</suite> <!--
+Suite -->

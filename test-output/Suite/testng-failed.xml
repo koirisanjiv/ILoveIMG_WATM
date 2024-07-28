@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="wantToBlockAdsAndNotifications" value="true"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="enableDebuggerMode" value="true, 9222"/>
+  <parameter name="incognitoMode" value="false"/>
+  <parameter name="headerLessBrowsing" value="false"/>
+  <parameter name="loginUserType" value="user"/>
+  <parameter name="wantToByPassLoginLogout" value="true"/>
+  <listeners>
+    <listener class-name="com.iloveimg.utilities.ExtentReport"/>
+  </listeners>
+  <test thread-count="1" name="ILoveIMG(failed)">
+    <classes>
+      <class name="com.iloveimg.testCases.TC_ConvertToJPG">
+        <methods>
+          <include name="Setup"/>
+          <include name="test_ConvertImageToJPG"/>
+          <include name="browserSettingAndLogin"/>
+          <include name="Logout"/>
+          <include name="Teardown"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- com.iloveimg.testCases.TC_ConvertToJPG -->
+    </classes>
+  </test> <!-- ILoveIMG(failed) -->
+</suite> <!-- Failed suite [Suite] -->

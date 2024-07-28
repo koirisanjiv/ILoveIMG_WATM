@@ -1,0 +1,387 @@
+17:54:45.662 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Driver shutdown
+18:02:14.170 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Browser and Login-Logout Settings
+18:02:14.187 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToEnableDebuggerMode: true And debugger post: 9222
+18:02:14.189 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToByPassLoginLogout: true
+18:02:14.190 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - incognitoMode: false
+18:02:14.190 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - headerLessBrowsing: false
+18:02:14.191 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToBlockAdsAndNotifications: true
+18:02:14.195 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Base class started...
+18:02:14.238 [main] INFO  com.iloveimg.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+18:02:14.243 [main] INFO  com.iloveimg.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+18:02:17.204 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Chrome driver selected
+18:02:17.936 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Login page started with Debugger mode
+18:02:17.959 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Maximize the window
+18:02:17.987 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - loginUserType: user
+18:02:18.102 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: callMeBeforePerformAnyAction
+18:02:18.104 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name and xpath >> Convert to JPG and >> //div[@class='tools__item']//h3[text()='Convert to JPG']
+18:02:19.808 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicke on button >> Convert to JPG
+18:02:24.874 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: convertToJPG
+18:02:24.875 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - totalButton: 1
+18:02:24.876 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name is >>Select image and address is >> (//a[@id='pickfiles'])[1]
+18:02:25.502 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicked on button >> Select image
+18:02:28.718 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - autoItExecutablePath: D:\Eclipse Project\Testing Demo\GMail_WATM_TestingDemo\AutoIT\autoIT.exe
+18:02:28.720 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - Starting AutoIt script execution...
+18:02:54.175 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - AutoIt script execution completed with exit code: 1
+18:02:56.273 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: convertToJPG
+18:02:56.274 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name and xpath >> Convert to JPG and >> (//button[@id='processTask'])[1]
+18:02:56.309 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Exception from callMeToClickOnAnyButtonWithNameAndXpath >> no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@id='processTask'])[1]"}
+  (Session info: chrome=126.0.6478.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eebc809c7c7cc00c8495775a561a9414, findElement {using=xpath, value=(//button[@id='processTask'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eebc809c7c7cc00c8495775a561a9414
+18:04:16.372 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Browser and Login-Logout Settings
+18:04:16.382 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToEnableDebuggerMode: true And debugger post: 9222
+18:04:16.384 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToByPassLoginLogout: true
+18:04:16.384 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - incognitoMode: false
+18:04:16.384 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - headerLessBrowsing: false
+18:04:16.385 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToBlockAdsAndNotifications: true
+18:04:16.388 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Base class started...
+18:04:16.436 [main] INFO  com.iloveimg.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+18:04:16.437 [main] INFO  com.iloveimg.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+18:04:19.792 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Chrome driver selected
+18:04:20.304 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Login page started with Debugger mode
+18:04:20.355 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Maximize the window
+18:04:20.384 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - loginUserType: user
+18:04:20.486 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: callMeBeforePerformAnyAction
+18:04:20.487 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name and xpath >> Convert to JPG and >> //div[@class='tools__item']//h3[text()='Convert to JPG']
+18:04:22.255 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicke on button >> Convert to JPG
+18:04:27.303 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: convertToJPG
+18:04:27.304 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - totalButton: 1
+18:04:27.305 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name is >>Select image and address is >> (//a[@id='pickfiles'])[1]
+18:04:28.071 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicked on button >> Select image
+18:04:31.294 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - autoItExecutablePath: D:\Eclipse Project\Testing Demo\GMail_WATM_TestingDemo\AutoIT\autoIT.exe
+18:04:31.294 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - Starting AutoIt script execution...
+18:04:34.486 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - AutoIt script execution completed with exit code: 0
+18:04:36.575 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: convertToJPG
+18:04:36.576 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name and xpath >> Convert to JPG and >> (//button[@id='processTask'])[1]
+18:04:36.662 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Exception from callMeToClickOnAnyButtonWithNameAndXpath >> no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@id='processTask'])[1]"}
+  (Session info: chrome=126.0.6478.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d79c18da4c5097fbed67c86ea8ee632f, findElement {using=xpath, value=(//button[@id='processTask'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d79c18da4c5097fbed67c86ea8ee632f
+18:04:37.642 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Driver shutdown
+18:06:17.555 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Driver shutdown
+18:08:13.690 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Browser and Login-Logout Settings
+18:08:13.700 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToEnableDebuggerMode: true And debugger post: 9222
+18:08:13.701 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToByPassLoginLogout: true
+18:08:13.702 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - incognitoMode: false
+18:08:13.702 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - headerLessBrowsing: false
+18:08:13.703 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToBlockAdsAndNotifications: true
+18:08:13.705 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Base class started...
+18:08:13.738 [main] INFO  com.iloveimg.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+18:08:13.739 [main] INFO  com.iloveimg.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+18:08:17.313 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Chrome driver selected
+18:08:18.249 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Login page started with Debugger mode
+18:08:18.280 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Maximize the window
+18:08:18.337 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - loginUserType: user
+18:08:18.510 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: callMeBeforePerformAnyAction
+18:08:18.512 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name and xpath >> Convert to JPG and >> //div[@class='tools__item']//h3[text()='Convert to JPG']
+18:08:28.543 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicke on button >> Convert to JPG
+18:08:33.598 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: convertToJPG
+18:08:33.600 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - totalButton: 1
+18:08:33.601 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name is >>Select image and address is >> (//a[@id='pickfiles'])[1]
+18:08:34.351 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicked on button >> Select image
+18:08:37.565 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - autoItExecutablePath: D:\Eclipse Project\Testing Demo\GMail_WATM_TestingDemo\AutoIT\autoIT.exe
+18:08:37.565 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - Starting AutoIt script execution...
+18:08:40.804 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - AutoIt script execution completed with exit code: 0
+18:08:42.915 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: convertToJPG
+18:08:42.916 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name and xpath >> Convert to JPG and >> (//button[@id='processTask'])[1]
+18:08:43.008 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Exception from callMeToClickOnAnyButtonWithNameAndXpath >> no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@id='processTask'])[1]"}
+  (Session info: chrome=126.0.6478.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [36bf24dc9b6f6417441a57645f7c2ae1, findElement {using=xpath, value=(//button[@id='processTask'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 36bf24dc9b6f6417441a57645f7c2ae1
+18:10:23.689 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Driver shutdown
+18:16:19.351 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Browser and Login-Logout Settings
+18:16:19.361 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToEnableDebuggerMode: true And debugger post: 9222
+18:16:19.361 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToByPassLoginLogout: true
+18:16:19.361 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - incognitoMode: false
+18:16:19.362 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - headerLessBrowsing: false
+18:16:19.363 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToBlockAdsAndNotifications: true
+18:16:19.365 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Base class started...
+18:16:19.404 [main] INFO  com.iloveimg.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+18:16:19.405 [main] INFO  com.iloveimg.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+18:16:23.139 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Chrome driver selected
+18:16:23.939 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Login page started with Debugger mode
+18:16:23.961 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Maximize the window
+18:16:23.996 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - loginUserType: user
+18:16:24.114 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: callMeBeforePerformAnyAction
+18:16:24.115 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name and xpath >> Convert to JPG and >> //div[@class='tools__item']//h3[text()='Convert to JPG']
+18:16:26.090 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicke on button >> Convert to JPG
+18:16:31.156 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: convertToJPG
+18:16:31.158 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - totalButton: 1
+18:16:31.160 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name is >>Select image and address is >> (//a[@id='pickfiles'])[1]
+18:16:31.907 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicked on button >> Select image
+18:16:35.124 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - autoItExecutablePath: D:\Eclipse Project\Testing Demo\GMail_WATM_TestingDemo\AutoIT\autoIT.exe
+18:16:35.125 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - Starting AutoIt script execution...
+18:16:38.583 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - AutoIt script execution completed with exit code: 0
+18:16:40.722 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: convertToJPG
+18:16:40.723 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name and xpath >> Convert to JPG and >> (//button[@id='processTask'])[1]
+18:16:41.414 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicke on button >> Convert to JPG
+18:17:41.879 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: convertToJPG
+18:17:41.880 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name and xpath >> Downlaod Image and >> (//a[normalize-space()='Download converted images'])[1]
+18:18:13.277 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicke on button >> Downlaod Image
+18:18:14.551 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Driver shutdown
+18:48:02.530 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Browser and Login-Logout Settings
+18:48:02.539 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToEnableDebuggerMode: true And debugger post: 9222
+18:48:02.539 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToByPassLoginLogout: true
+18:48:02.540 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - incognitoMode: false
+18:48:02.540 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - headerLessBrowsing: false
+18:48:02.541 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToBlockAdsAndNotifications: true
+18:48:02.544 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Base class started...
+18:48:02.572 [main] INFO  com.iloveimg.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+18:48:02.572 [main] INFO  com.iloveimg.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+18:48:06.303 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Chrome driver selected
+18:48:07.696 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Login page started with Debugger mode
+18:48:07.708 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Maximize the window
+18:48:07.728 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - loginUserType: user
+18:48:07.851 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: callMeBeforePerformAnyAction
+18:48:07.851 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name and xpath >> Convert to JPG and >> //div[@class='tools__item']//h3[text()='Convert to JPG']
+18:48:14.012 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicke on button >> Convert to JPG
+18:48:19.045 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: convertToJPG
+18:48:19.046 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - totalButton: 1
+18:48:19.047 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name is >>Select image and address is >> (//a[@id='pickfiles'])[1]
+18:48:19.619 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicked on button >> Select image
+18:48:22.858 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - autoItExecutablePath: D:\Eclipse Project\Testing Demo\GMail_WATM_TestingDemo\AutoIT\autoIT.exe
+18:48:22.858 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - Starting AutoIt script execution...
+18:48:26.143 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - AutoIt script execution completed with exit code: 0
+18:48:28.199 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: convertToJPG
+18:48:28.199 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name and xpath >> Convert to JPG and >> (//button[@id='processTask'])[1]
+18:48:28.773 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicke on button >> Convert to JPG
+18:50:03.419 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Browser and Login-Logout Settings
+18:50:03.431 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToEnableDebuggerMode: true And debugger post: 9222
+18:50:03.432 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToByPassLoginLogout: true
+18:50:03.432 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - incognitoMode: false
+18:50:03.433 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - headerLessBrowsing: false
+18:50:03.434 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToBlockAdsAndNotifications: true
+18:50:03.436 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Base class started...
+18:50:03.479 [main] INFO  com.iloveimg.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+18:50:03.480 [main] INFO  com.iloveimg.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+18:50:06.739 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Chrome driver selected
+18:50:07.101 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Login page started with Debugger mode
+18:50:07.117 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Maximize the window
+18:50:07.143 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - loginUserType: user
+18:50:07.267 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: callMeBeforePerformAnyAction
+18:50:07.268 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name and xpath >> Convert to JPG and >> //div[@class='tools__item']//h3[text()='Convert to JPG']
+18:50:08.759 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicke on button >> Convert to JPG
+18:50:13.780 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: convertToJPG
+18:50:13.781 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - totalButton: 1
+18:50:13.782 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name is >>Select image and address is >> (//a[@id='pickfiles'])[1]
+18:50:14.367 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicked on button >> Select image
+18:50:17.589 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - autoItExecutablePath: D:\Eclipse Project\Testing Demo\GMail_WATM_TestingDemo\AutoIT\autoIT.exe
+18:50:17.589 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - Starting AutoIt script execution...
+18:50:20.794 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - AutoIt script execution completed with exit code: 0
+18:50:22.840 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: convertToJPG
+18:50:22.841 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name and xpath >> Convert to JPG and >> (//button[@id='processTask'])[1]
+18:50:23.405 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicke on button >> Convert to JPG
+19:27:08.913 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Browser and Login-Logout Settings
+19:27:08.923 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToEnableDebuggerMode: true And debugger post: 9222
+19:27:08.924 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToByPassLoginLogout: true
+19:27:08.925 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - incognitoMode: false
+19:27:08.925 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - headerLessBrowsing: false
+19:27:08.926 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToBlockAdsAndNotifications: true
+19:27:08.928 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Base class started...
+19:27:08.960 [main] INFO  com.iloveimg.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+19:27:08.961 [main] INFO  com.iloveimg.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+19:27:16.911 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Chrome driver selected
+19:27:18.917 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Login page started with Debugger mode
+19:27:18.933 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Maximize the window
+19:27:18.960 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - loginUserType: user
+19:27:19.119 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: callMeBeforePerformAnyAction
+19:27:19.120 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name and xpath >> Convert to JPG and >> //div[@class='tools__item']//h3[text()='Convert to JPG']
+19:27:21.530 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicke on button >> Convert to JPG
+19:27:26.558 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: convertToJPG
+19:27:26.559 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - totalButton: 1
+19:27:26.559 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name is >>Select image and address is >> (//a[@id='pickfiles'])[1]
+19:27:27.149 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicked on button >> Select image
+19:27:30.363 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - autoItExecutablePath: D:\Eclipse Project\Testing Demo\GMail_WATM_TestingDemo\AutoIT\autoIT.exe
+19:27:35.386 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - Starting AutoIt script execution...
+19:27:40.318 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - AutoIt script execution completed with exit code: 0
+19:27:42.396 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: convertToJPG
+19:27:42.396 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name and xpath >> Convert to JPG and >> (//button[@id='processTask'])[1]
+19:27:43.018 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicke on button >> Convert to JPG
+19:29:04.093 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: convertToJPG
+19:29:04.093 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name and xpath >> Downlaod Image and >> (//a[normalize-space()='Download converted images'])[1]
+19:29:35.244 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicke on button >> Downlaod Image
+19:29:36.375 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Driver shutdown
+19:34:43.692 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Browser and Login-Logout Settings
+19:34:43.702 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToEnableDebuggerMode: true And debugger post: 9222
+19:34:43.702 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToByPassLoginLogout: true
+19:34:43.703 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - incognitoMode: false
+19:34:43.703 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - headerLessBrowsing: false
+19:34:43.704 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToBlockAdsAndNotifications: true
+19:34:43.706 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Base class started...
+19:34:43.735 [main] INFO  com.iloveimg.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+19:34:43.736 [main] INFO  com.iloveimg.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+19:34:46.582 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Chrome driver selected
+19:34:47.518 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Login page started with Debugger mode
+19:34:47.531 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Maximize the window
+19:34:47.552 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - loginUserType: user
+19:34:47.646 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: callMeBeforePerformAnyAction
+19:34:47.647 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name and xpath >> Convert to JPG and >> //div[@class='tools__item']//h3[text()='Convert to JPG']
+19:34:49.589 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicke on button >> Convert to JPG
+19:34:54.636 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: convertToJPG
+19:34:54.637 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - totalButton: 1
+19:34:54.638 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name is >>Select image and address is >> (//a[@id='pickfiles'])[1]
+19:34:55.224 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicked on button >> Select image
+19:34:58.449 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - autoItExecutablePath: D:\Eclipse Project\Testing Demo\GMail_WATM_TestingDemo\AutoIT\autoIT.exe
+19:35:08.488 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - Starting AutoIt script execution...
+19:35:13.410 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - AutoIt script execution completed with exit code: 0
+19:35:15.465 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: convertToJPG
+19:35:15.465 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name and xpath >> Convert to JPG and >> (//button[@id='processTask'])[1]
+19:35:16.062 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicke on button >> Convert to JPG
+21:19:51.764 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Browser and Login-Logout Settings
+21:19:51.773 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToEnableDebuggerMode: true And debugger post: 9222
+21:19:51.773 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToByPassLoginLogout: true
+21:19:51.775 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - incognitoMode: false
+21:19:51.775 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - headerLessBrowsing: false
+21:19:51.775 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToBlockAdsAndNotifications: true
+21:19:51.778 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Base class started...
+21:19:51.865 [main] INFO  com.iloveimg.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+21:19:51.866 [main] INFO  com.iloveimg.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+21:20:07.421 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Chrome driver selected
+21:20:09.277 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Login page started with Debugger mode
+21:20:48.059 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Browser and Login-Logout Settings
+21:20:48.071 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToEnableDebuggerMode: true And debugger post: 9222
+21:20:48.072 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToByPassLoginLogout: true
+21:20:48.072 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - incognitoMode: false
+21:20:48.072 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - headerLessBrowsing: false
+21:20:48.073 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToBlockAdsAndNotifications: true
+21:20:48.075 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Base class started...
+21:20:48.113 [main] INFO  com.iloveimg.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+21:20:48.114 [main] INFO  com.iloveimg.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+21:20:51.465 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Chrome driver selected
+21:20:51.974 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Login page started with Debugger mode
+21:20:51.989 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Maximize the window
+21:20:52.011 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - loginUserType: user
+21:20:52.164 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: callMeBeforePerformAnyAction
+21:20:52.166 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name and xpath >> Convert to JPG and >> //div[@class='tools__item']//h3[text()='Convert to JPG']
+21:20:55.292 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicke on button >> Convert to JPG
+21:21:00.372 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: convertToJPG
+21:21:00.374 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - totalButton: 1
+21:21:00.375 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name is >>Select image and address is >> (//a[@id='pickfiles'])[1]
+21:21:00.985 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicked on button >> Select image
+21:21:04.195 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - autoItExecutablePath: D:\Eclipse Project\Testing Demo\GMail_WATM_TestingDemo\AutoIT\autoIT.exe
+21:21:14.238 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - Starting AutoIt script execution...
+21:21:19.770 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - AutoIt script execution completed with exit code: 0
+21:21:21.843 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: convertToJPG
+21:21:21.843 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name and xpath >> Convert to JPG and >> (//button[@id='processTask'])[1]
+21:21:22.529 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicke on button >> Convert to JPG
+21:51:42.306 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Browser and Login-Logout Settings
+21:51:42.316 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToEnableDebuggerMode: true And debugger post: 9222
+21:51:42.317 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToByPassLoginLogout: true
+21:51:42.317 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - incognitoMode: false
+21:51:42.318 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - headerLessBrowsing: false
+21:51:42.319 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToBlockAdsAndNotifications: true
+21:51:42.321 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Base class started...
+21:51:42.356 [main] INFO  com.iloveimg.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+21:51:42.357 [main] INFO  com.iloveimg.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+21:51:45.802 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Chrome driver selected
+21:51:48.798 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Login page started with Debugger mode
+21:51:48.810 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Maximize the window
+21:51:48.831 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - loginUserType: user
+21:51:48.936 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: callMeBeforePerformAnyAction
+21:51:48.938 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name and xpath >> Convert to JPG and >> //div[@class='tools__item']//h3[text()='Convert to JPG']
+21:51:51.407 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicke on button >> Convert to JPG
+21:51:56.457 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: convertToJPG
+21:51:56.458 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - totalButton: 1
+21:51:56.459 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name is >>Select image and address is >> (//a[@id='pickfiles'])[1]
+21:51:57.071 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicked on button >> Select image
+21:52:00.284 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - autoItExecutablePath: D:\Eclipse Project\Testing Demo\GMail_WATM_TestingDemo\AutoIT\autoITApplication.exe
+21:52:17.380 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - Starting AutoIt script execution...
+21:52:23.441 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - AutoIt script execution completed with exit code: 0
+21:52:25.497 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: convertToJPG
+21:52:25.497 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name and xpath >> Convert to JPG and >> (//button[@id='processTask'])[1]
+21:52:26.246 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicke on button >> Convert to JPG
+21:54:08.004 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Driver shutdown
+22:06:56.512 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Browser and Login-Logout Settings
+22:06:56.521 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToEnableDebuggerMode: true And debugger post: 9222
+22:06:56.522 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToByPassLoginLogout: true
+22:06:56.523 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - incognitoMode: false
+22:06:56.523 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - headerLessBrowsing: false
+22:06:56.523 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToBlockAdsAndNotifications: true
+22:06:56.527 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Base class started...
+22:06:56.554 [main] INFO  com.iloveimg.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+22:06:56.555 [main] INFO  com.iloveimg.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+22:06:59.885 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Chrome driver selected
+22:07:02.891 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Login page started with Debugger mode
+22:07:02.915 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Maximize the window
+22:07:02.948 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - loginUserType: user
+22:07:03.038 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: callMeBeforePerformAnyAction
+22:07:03.039 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name and xpath >> Convert to JPG and >> //div[@class='tools__item']//h3[text()='Convert to JPG']
+22:07:13.734 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicke on button >> Convert to JPG
+22:07:18.787 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: convertToJPG
+22:07:18.788 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - totalButton: 1
+22:07:18.790 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name is >>Select image and address is >> (//a[@id='pickfiles'])[1]
+22:07:18.829 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Exception from callMeToClickOnAnyButtonWithNameAndXpath >> no such element: Unable to locate element: {"method":"xpath","selector":"(//a[@id='pickfiles'])[1]"}
+  (Session info: chrome=126.0.6478.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6d825bd8ae414b217b1e7945ec27d87f, findElement {using=xpath, value=(//a[@id='pickfiles'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d825bd8ae414b217b1e7945ec27d87f
+22:07:21.844 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - Method called uploadFileWithAutoIT & caller method name: convertToJPG
+22:07:21.845 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - autoItExecutablePath: D:\Eclipse Project\Testing Demo\GMail_WATM_TestingDemo\AutoIT\autoITApplication.exe
+22:07:23.848 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - uploadFileAddress: C:\Users\koiri\Downloads\LeonardoAI
+22:07:23.850 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - uploadFileName: मेरे घर राम आये हैं
+22:07:23.857 [main] INFO  com.iloveimg.projectUtility.AddArgumentsInAutoITScriptFile - Method called setFileDirectoryAndName & caller method name: uploadFileWithAutoIT
+22:07:28.876 [main] INFO  com.iloveimg.projectUtility.OpenCMDAndRunBatFile - Method called setFileDirectoryAndName & caller method name: uploadFileWithAutoIT
+22:07:38.929 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - Starting AutoIt script execution...
+22:07:45.037 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - AutoIt script execution completed with exit code: 0
+22:07:47.103 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: convertToJPG
+22:07:47.104 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name and xpath >> Convert to JPG and >> (//button[@id='processTask'])[1]
+22:07:47.136 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Exception from callMeToClickOnAnyButtonWithNameAndXpath >> no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@id='processTask'])[1]"}
+  (Session info: chrome=126.0.6478.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6d825bd8ae414b217b1e7945ec27d87f, findElement {using=xpath, value=(//button[@id='processTask'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d825bd8ae414b217b1e7945ec27d87f
+22:09:12.619 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Browser and Login-Logout Settings
+22:09:12.629 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToEnableDebuggerMode: true And debugger post: 9222
+22:09:12.630 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToByPassLoginLogout: true
+22:09:12.630 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - incognitoMode: false
+22:09:12.631 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - headerLessBrowsing: false
+22:09:12.632 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - wantToBlockAdsAndNotifications: true
+22:09:12.634 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Base class started...
+22:09:12.665 [main] INFO  com.iloveimg.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+22:09:12.666 [main] INFO  com.iloveimg.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+22:09:15.727 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Chrome driver selected
+22:09:17.000 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Login page started with Debugger mode
+22:09:17.038 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Maximize the window
+22:09:17.108 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - loginUserType: user
+22:09:17.204 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: callMeBeforePerformAnyAction
+22:09:17.205 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name and xpath >> Convert to JPG and >> //div[@class='tools__item']//h3[text()='Convert to JPG']
+22:09:18.929 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicke on button >> Convert to JPG
+22:09:23.963 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: convertToJPG
+22:09:23.964 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - totalButton: 1
+22:09:23.965 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name is >>Select image and address is >> (//a[@id='pickfiles'])[1]
+22:09:24.573 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicked on button >> Select image
+22:09:27.634 [main] INFO  com.iloveimg.testCases.TC_ConvertToJPG - Driver shutdown
+22:09:27.834 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - Method called uploadFileWithAutoIT & caller method name: convertToJPG
+22:09:27.835 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - autoItExecutablePath: D:\Eclipse Project\Testing Demo\GMail_WATM_TestingDemo\AutoIT\autoITApplication.exe
+22:09:29.838 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - uploadFileAddress: C:\Users\koiri\Downloads\LeonardoAI
+22:09:29.841 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - uploadFileName: मेरे घर राम आये हैं
+22:09:29.849 [main] INFO  com.iloveimg.projectUtility.AddArgumentsInAutoITScriptFile - Method called setFileDirectoryAndName & caller method name: uploadFileWithAutoIT
+22:09:34.886 [main] INFO  com.iloveimg.projectUtility.OpenCMDAndRunBatFile - Method called setFileDirectoryAndName & caller method name: uploadFileWithAutoIT
+22:09:44.916 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - Starting AutoIt script execution...
+22:09:51.000 [main] INFO  com.iloveimg.projectUtility.UploadFileWithAutoIT - AutoIt script execution completed with exit code: 0
+22:09:53.078 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: convertToJPG
+22:09:53.079 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - Element name and xpath >> Convert to JPG and >> (//button[@id='processTask'])[1]
+22:09:53.701 [main] INFO  com.iloveimg.utilities.ClickOnAnyButton - clicke on button >> Convert to JPG
